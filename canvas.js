@@ -130,7 +130,7 @@ function iter() {
 window.addEventListener('resize',function(){
     canvas.width=parent.offsetWidth;
     canvas.height=parent.offsetHeight;
-    window.location.reload()
+    //window.location.reload()
 })
 iter();
 
