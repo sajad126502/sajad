@@ -28,7 +28,7 @@
     margin: 1rem;
     color: yellow;
     font-size: 20px;
-    transition: all;
+    transition: width;
     transition-duration: 0.50s;
     padding-left: 32px;
 
