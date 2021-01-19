@@ -517,8 +517,8 @@ footer{
 
 .cards{
     border-radius: 5px;
-    min-height: 65vh;
-    height:70vh;
+    
+    height:auto;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
