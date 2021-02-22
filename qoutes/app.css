@@ -1,0 +1,54 @@
+
+.container {
+    border: 1px solid rgb(0, 140, 255);
+    height: 100vh;
+    background-color:rgb(56, 232, 255);
+  
+}
+.row{
+   background-color:rgb(99, 199, 230);
+   height:70%;
+   margin:2%;
+   width: 60%;
+    
+}
+.col{
+    background-color:rgb(166, 207, 119);
+    height:100%;
+    padding:10%;
+}
+
+
+.btn{
+margin-top: auto;
+
+    
+}
+.adata{
+  
+   align-self: flex-end;
+
+}
+.jdata{
+  font-size: 30px;
+  font-family: monospace;
+  padding:px;
+}
+.col i{
+    font-size: 50px;
+}
+.img{
+    height:50px;
+    width:50px;
+    margin: 8px;
+   align-self: flex-end;
+}
+@media (max-width: 768px){
+    .row{
+
+        height:100vh;
+        width:100vw;
+    }
+
+
+}
