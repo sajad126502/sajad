@@ -1,0 +1,80 @@
+
+.b1{
+    border: 1px solid green;
+}
+.c1{
+    color: blue;
+}
+.bg{
+    background-color:#211f1e;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*container*/
+.cont{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.bs{
+    -moz-box-shadow:    3px 3px 5px 6px rgb(66, 61, 61);
+  -webkit-box-shadow: 3px 3px 5px 6px rgb(68, 60, 60);
+  box-shadow:         1px 2px 2px 6px rgb(66, 65, 65);
+}
+.jdata{
+    padding: 2px;
+    color: rgb(228, 78, 170);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+
+}
+.fas{
+    animation: rot 3s infinite linear;
+    color: rgb(233, 125, 143);
+}
+@keyframes rot{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+
+    }
+}
+/*row*/
+.ro{
+    width: 100%;
+    height: 90%;
+}
+/*column*/
+.coll{
+    padding: 10px;
+    min-height: 90%;
+}
+.btn{
+    margin-top: auto;
+
+}
+.adata{
+    color: blue;
+    margin-left: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.jdata{
+    margin-top: 8%;
+}
+@media (max-width:500px){
+    .coll{
+        width: 100%;
+        height: 100%;
+    }
+}
